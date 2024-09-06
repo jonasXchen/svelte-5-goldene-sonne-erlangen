@@ -1,13 +1,11 @@
 <div>
   IMPRESSUM Angaben gem. Telemediengesetz TMG § 5 Anschrift China Restaurant
   Goldene Sonne Inhaber: Aichun Sun Nürnberger Str. 35 91052 Erlangen Kontakt
-  Tel.: 09131 - 97 35 25 Fax: E-Mail: info@goldenesonne.com Rechtliche Angaben
-  Umsatzsteuer-ID: DE 123 456 789 Registergericht: Handelsregister Nürnberg
-  Registernummer: HRA 3888 usw.... Haftungsausschluss (Disclaimer) Haftung für
-  Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte
-  auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis
-  10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte
-  oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
+  Tel.: 09131 - 97 35 25 Haftungsausschluss (Disclaimer) Haftung für Inhalte Als
+  Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen
+  Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind
+  wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder
+  gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
   forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur
   Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen
   Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch
