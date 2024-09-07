@@ -4,17 +4,21 @@
   import Facilities from "../pages/Facilities.svelte";
   import Directions from "../pages/Directions.svelte";
   import Footer from "../pages/Footer.svelte";
+  import {
+    PUBLIC_RESTAURANT_CITY,
+    PUBLIC_RESTAURANT_NAME,
+  } from "$lib/constants";
 </script>
 
 <svelte:head>
   <!-- Basic Meta Tags -->
+  <meta name="{PUBLIC_RESTAURANT_NAME} {PUBLIC_RESTAURANT_CITY}" content="" />
   <meta
-    name="Asiatisches Restaurant - Gourmet Buffet"
-    content="Mongolischer Grill & Sushi. All you can eat & drink."
+    name="keywords"
+    content="{PUBLIC_RESTAURANT_NAME}, {PUBLIC_RESTAURANT_CITY}"
   />
-  <meta name="keywords" content="Gourmet Buffet, Bamberg, Grill, Sushi" />
   <link rel="icon" href="/logo.png" />
-  <title>Asiatisches Restaurant - Gourmet Buffet</title>
+  <title>{PUBLIC_RESTAURANT_NAME}</title>
 </svelte:head>
 
 <div class="flex flex-col items-center">
