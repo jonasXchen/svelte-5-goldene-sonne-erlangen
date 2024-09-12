@@ -3,8 +3,9 @@
 
   import EntranceImage from "/src/assets/images/entrance.png";
   import Facilities2Image from "/src/assets/images/facilities2.png";
-  import TablesImage from "/src/assets/images/tables.png";
-  import Facilities3Image from "/src/assets/images/facilities3.png";
+  import Faciltiies3Image from "/src/assets/images/facilities3.png";
+  import Facilities4Image from "/src/assets/images/facilities4.png";
+  import Facilities5Image from "/src/assets/images/facilities5.png";
 
   let images = [
     {
@@ -16,25 +17,29 @@
       name: "Elegant traditionell",
     },
     {
-      file: TablesImage,
+      file: Faciltiies3Image,
       name: "Gemeinsam und gemütlich",
     },
     {
-      file: Facilities3Image,
+      file: Facilities4Image,
+      name: "Schöner Ausblick",
+    },
+    {
+      file: Facilities5Image,
       name: "Viel Platz",
     },
   ];
 </script>
 
-<div class="flex flex-col lg:px-8 md:px-20 sm:px-16 p-8 gap-8">
+<div class="flex flex-col gap-8 p-8 lg:px-8 md:px-20 sm:px-16">
   <!-- Title -->
   <div
-    class="flex font-cinzel text-primary text-3xl font-medium tracking-widest leading-10"
+    class="flex text-3xl font-medium leading-10 tracking-widest font-cinzel text-primary"
   >
     Unsere Räumlichkeiten
   </div>
   <!-- Fotos -->
-  <div class="flex relative">
+  <div class="relative flex">
     <!-- <div
       class="absolute top-0 left-0 bg-white [clip-path:polygon(0%_0%,100%_0%,100%_60%,0%_30%)] w-full h-1/5 opacity-35 z-20"
     ></div>
