@@ -1,8 +1,8 @@
 <script>
   import {
-    PUBLIC_RESTAURANT_LUNCH_TIME,
-    PUBLIC_RESTAURANT_DINNER_TIME,
-    PUBLIC_RESTAURANT_OPENING_DAYS,
+    PUBLIC_ENTITY_LUNCH_TIME,
+    PUBLIC_ENTITY_DINNER_TIME,
+    PUBLIC_ENTITY_OPENING_DAYS,
   } from "$lib/constants";
 
   import DirectionsImage from "/src/assets/images/directions.png";
@@ -17,12 +17,11 @@
     </p>
   </div>
   <p class="text-balance text-center sm:text-left">
-    <span class="font-bold">{PUBLIC_RESTAURANT_OPENING_DAYS}</span>, auch an
+    <span class="font-bold">{PUBLIC_ENTITY_OPENING_DAYS}</span>, auch an
     <span class="font-bold">Feiertagen</span>
     ab
-    <span class="font-bold">{PUBLIC_RESTAURANT_LUNCH_TIME}</span> &
-    <span class="font-bold">{PUBLIC_RESTAURANT_DINNER_TIME}</span> sind wir für Sie
-    da!
+    <span class="font-bold">{PUBLIC_ENTITY_LUNCH_TIME}</span> &
+    <span class="font-bold">{PUBLIC_ENTITY_DINNER_TIME}</span> sind wir für Sie da!
   </p>
   <div class="flex lg:flex-row flex-col lg:gap-12 gap-8">
     <div class="flex flex-col gap-4 w-full">

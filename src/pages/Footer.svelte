@@ -1,11 +1,11 @@
 <script>
   import {
-    PUBLIC_RESTAURANT_NAME,
-    PUBLIC_RESTAURANT_STREET,
-    PUBLIC_RESTAURANT_CITY,
-    PUBLIC_RESTAURANT_TEL,
-    PUBLIC_RESTAURANT_FAX,
-    PUBLIC_RESTAURANT_OWNER,
+    PUBLIC_ENTITY_NAME,
+    PUBLIC_ENTITY_STREET,
+    PUBLIC_ENTITY_CITY,
+    PUBLIC_ENTITY_TEL,
+    PUBLIC_ENTITY_FAX,
+    PUBLIC_ENTITY_OWNER,
     PUBLIC_FACEBOOK_ROUTE,
   } from "$lib/constants";
 
@@ -14,35 +14,37 @@
 </script>
 
 <div
-  class="flex flex-col items-center mt-20 py-24 gap-8 w-full"
+  class="flex flex-col items-center w-full gap-8 py-24 mt-20"
   style="background-image: url('{CustomWhiteImage}');"
 >
   <!-- Icon -->
   <div class="flex h-8">
     <a href={PUBLIC_FACEBOOK_ROUTE} target="_blank" rel="noopener noreferrer">
-      <img src={FacebookIcon} alt="Facebook" class="h-8 object-cover" />
+      <img src={FacebookIcon} alt="Facebook" class="object-cover h-8" />
     </a>
   </div>
   <div class="flex flex-col items-center">
     <!-- Restaurant Name and Address -->
-    <div class="text-primary font-semibold">{PUBLIC_RESTAURANT_NAME}</div>
-    <div>{PUBLIC_RESTAURANT_STREET}</div>
-    <div>{PUBLIC_RESTAURANT_CITY}</div>
+    <div class="font-semibold text-primary">{PUBLIC_ENTITY_NAME}</div>
+    <div class="flex flex-col items-center text-sm font-thin">
+      <div>{PUBLIC_ENTITY_STREET}</div>
+      <div>{PUBLIC_ENTITY_CITY}</div>
 
-    <!-- Restaurant Tel -->
-    {#if PUBLIC_RESTAURANT_TEL}
-      <div>Tel: {PUBLIC_RESTAURANT_TEL}</div>
-    {/if}
+      <!-- Restaurant Tel -->
+      {#if PUBLIC_ENTITY_TEL}
+        <a href="tel:{PUBLIC_ENTITY_TEL}">Tel: {PUBLIC_ENTITY_TEL}</a>
+      {/if}
 
-    <!-- Restaurant Fax -->
-    {#if PUBLIC_RESTAURANT_FAX}
-      <div>Fax: {PUBLIC_RESTAURANT_FAX}</div>
-    {/if}
+      <!-- Restaurant Fax -->
+      {#if PUBLIC_ENTITY_FAX}
+        <div>Fax: {PUBLIC_ENTITY_FAX}</div>
+      {/if}
 
-    <!-- Restaurant Owner -->
-    {#if PUBLIC_RESTAURANT_OWNER}
-      <div>Inhaber: {PUBLIC_RESTAURANT_OWNER}</div>
-    {/if}
+      <!-- Restaurant Owner -->
+      {#if PUBLIC_ENTITY_OWNER}
+        <div>Inhaber: {PUBLIC_ENTITY_OWNER}</div>
+      {/if}
+    </div>
   </div>
   <div class="flex flex-row gap-3 underline">
     <a href="/impressum" target="_blank" rel="noopener noreferrer">
