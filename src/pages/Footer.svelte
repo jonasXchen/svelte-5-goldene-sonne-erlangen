@@ -14,13 +14,13 @@
 </script>
 
 <div
-  class="flex flex-col items-center w-full gap-8 py-24 mt-20"
+  class="flex flex-col items-center w-full gap-8 py-24"
   style="background-image: url('{CustomWhiteImage}');"
 >
   <!-- Icon -->
-  <div class="flex h-8">
+  <div class="flex h-6">
     <a href={PUBLIC_FACEBOOK_ROUTE} target="_blank" rel="noopener noreferrer">
-      <img src={FacebookIcon} alt="Facebook" class="object-cover h-8" />
+      <img src={FacebookIcon} alt="Facebook" class="object-cover h-6" />
     </a>
   </div>
   <div class="flex flex-col items-center">
