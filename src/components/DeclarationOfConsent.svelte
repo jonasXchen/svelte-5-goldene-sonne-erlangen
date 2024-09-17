@@ -39,12 +39,13 @@
       <div class="flex flex-row self-end gap-4">
         <button
           on:click={acceptCookies}
-          class="p-2 text-white border border-white bg-priamry {acceptClass}"
+          class="p-2 text-white border border-white bg-primary rounded-sm {acceptClass}"
           >Accept</button
         >
         <button
           on:click={declineCookies}
-          class="p-2 text-black bg-gray-300 {declineClass}">Decline</button
+          class="p-2 text-black bg-gray-300 rounded-sm {declineClass}"
+          >Decline</button
         >
       </div>
     </div>

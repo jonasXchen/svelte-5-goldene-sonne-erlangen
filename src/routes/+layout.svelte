@@ -6,6 +6,7 @@
   import { dev } from "$app/environment";
   import { inject } from "@vercel/analytics";
   import DeclarationOfConsent from "../components/DeclarationOfConsent.svelte";
+
   inject({ mode: dev ? "development" : "production" });
 </script>
 
