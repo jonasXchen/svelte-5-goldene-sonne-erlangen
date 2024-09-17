@@ -5,7 +5,14 @@
   // Injecting Vercel Analytics
   import { dev } from "$app/environment";
   import { inject } from "@vercel/analytics";
+  import DeclarationOfConsent from "../components/DeclarationOfConsent.svelte";
   inject({ mode: dev ? "development" : "production" });
 </script>
 
-<main class="font-overpass font-light md:text-lg text-base"><slot /></main>
+<main class="text-base font-light font-overpass md:text-lg">
+  <slot />
+  <DeclarationOfConsent
+    popupClass="bg-white"
+    acceptClass="bg-primary text-white"
+  />
+</main>
