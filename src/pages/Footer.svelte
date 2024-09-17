@@ -46,7 +46,7 @@
       {/if}
     </div>
   </div>
-  <div class="flex flex-row gap-3 underline">
+  <div class="flex flex-row gap-3 text-sm underline">
     <a href="/impressum" target="_blank" rel="noopener noreferrer">
       Impressum
     </a>

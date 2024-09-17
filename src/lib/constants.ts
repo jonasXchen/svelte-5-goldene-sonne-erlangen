@@ -1,3 +1,4 @@
+export const PUBLIC_ENTITY_DOMAIN="goldene-sonne-erlangen.de"
 export const PUBLIC_ENTITY_TEL="09131 - 97 35 25"
 export const PUBLIC_ENTITY_FAX="09131 - 97 35 27"
 export const PUBLIC_ENTITY_STREET="Nürnbergerstr. 35"
