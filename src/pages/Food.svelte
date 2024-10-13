@@ -1,14 +1,14 @@
 <script>
-  import BuffetImage from "/src/assets/images/buffet.png";
+  import BuffetImage from "/src/assets/images/Food2.png";
   import CustomWhiteImage from "/src/assets/images/custom-white-bg.png";
-  import DessertImage from "/src/assets/images/buffet2.png";
+  import DessertImage from "/src/assets/images/Food5.png";
   import { PUBLIC_MENU_ROUTE_1, PUBLIC_MENU_ROUTE_2 } from "$lib/constants";
 </script>
 
-<div class="bg-white flex flex-col lg:px-8 md:px-20 sm:px-16 p-8 w-full gap-8">
-  <div class="flex h-4/5 items-center w-full lg:flex-row flex-col gap-8">
+<div class="flex flex-col w-full gap-8 p-8 bg-white lg:px-8 md:px-20 sm:px-16">
+  <div class="flex flex-col items-center w-full gap-8 h-4/5 lg:flex-row">
     <!-- Buffet -->
-    <div class="flex flex-col lg:w-1/2 lg:relative items-center w-full">
+    <div class="flex flex-col items-center w-full lg:w-1/2 lg:relative">
       <img
         src={BuffetImage}
         alt="Buffet Image"
@@ -19,9 +19,9 @@
       class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] justify-center max-h-[500px] relative sm:p-12 p-8 w-full"
       style="background-image: url('{CustomWhiteImage}');"
     >
-      <div class="flex flex-col lg:z-20 lg:p-16 lg:left-10 lg:absolute gap-4">
+      <div class="flex flex-col gap-4 lg:z-20 lg:p-16 lg:left-10 lg:absolute">
         <div
-          class="font-cinzel text-primary text-3xl font-medium tracking-widest"
+          class="text-3xl font-medium tracking-widest font-cinzel text-primary"
         >
           Speisen
         </div>
@@ -32,7 +32,7 @@
         </p>
         <a href={PUBLIC_MENU_ROUTE_1} target="_blank" rel="noopener noreferrer">
           <button
-            class="bg-white p-2 border-2 border-primary text-primary font-semibold w-full max-w-64"
+            class="w-full p-2 font-semibold bg-white border-2 border-primary text-primary max-w-64"
             >Zur Hauptspeisekarte
           </button>
         </a>
@@ -41,9 +41,9 @@
   </div>
 
   <!-- Desserts -->
-  <div class="flex h-4/5 items-center w-full lg:flex-row flex-col gap-8">
+  <div class="flex flex-col items-center w-full gap-8 h-4/5 lg:flex-row">
     <div
-      class="flex flex-col lg:w-1/2 lg:relative items-center lg:order-2 w-full"
+      class="flex flex-col items-center w-full lg:w-1/2 lg:relative lg:order-2"
     >
       <img
         src={DessertImage}
@@ -55,9 +55,9 @@
       class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] lg:max-h-[500px] justify-center relative sm:p-12 p-8 w-full"
       style="background-image: url('{CustomWhiteImage}');"
     >
-      <div class="flex flex-col lg:z-20 lg:p-16 lg:right-10 lg:absolute gap-4">
+      <div class="flex flex-col gap-4 lg:z-20 lg:p-16 lg:right-10 lg:absolute">
         <div
-          class="font-cinzel text-primary text-3xl font-medium tracking-widest"
+          class="text-3xl font-medium tracking-widest font-cinzel text-primary"
         >
           Traditionelle Gerichte
         </div>
@@ -68,7 +68,7 @@
         </p>
         <a href={PUBLIC_MENU_ROUTE_2} target="_blank" rel="noopener noreferrer">
           <button
-            class="bg-white p-2 border-2 border-primary text-primary font-semibold w-full max-w-64"
+            class="w-full p-2 font-semibold bg-white border-2 border-primary text-primary max-w-64"
             >Zur traditionellen Speisekarte</button
           >
         </a>
