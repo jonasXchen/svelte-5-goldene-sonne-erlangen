@@ -2,6 +2,7 @@
   import BuffetImage from "/src/assets/images/Food2.png";
   import CustomWhiteImage from "/src/assets/images/custom-white-bg.png";
   import DessertImage from "/src/assets/images/Food5.png";
+  import Menu from "/src/assets/menu/2024-10-10_Speisekarte.pdf";
   import { PUBLIC_MENU_ROUTE_1, PUBLIC_MENU_ROUTE_2 } from "$lib/constants";
 </script>
 
@@ -30,7 +31,7 @@
           Nutzen Sie die Gelegenheit und genießen Sie unser zahlreiches
           Speisenangebot!
         </p>
-        <a href={PUBLIC_MENU_ROUTE_1} target="_blank" rel="noopener noreferrer">
+        <a href={Menu} target="_blank" rel="noopener noreferrer">
           <button
             class="w-full p-2 font-semibold bg-white border-2 border-primary text-primary max-w-64"
             >Zur Hauptspeisekarte
@@ -66,7 +67,7 @@
           Von allen Köstlichkeiten etwas dabei, wählen Sie Ihre Wunschnachspeise
           aus!
         </p>
-        <a href={PUBLIC_MENU_ROUTE_2} target="_blank" rel="noopener noreferrer">
+        <a href={Menu} target="_blank" rel="noopener noreferrer">
           <button
             class="w-full p-2 font-semibold bg-white border-2 border-primary text-primary max-w-64"
             >Zur traditionellen Speisekarte</button
