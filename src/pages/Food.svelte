@@ -3,7 +3,6 @@
   import CustomWhiteImage from "/src/assets/images/custom-white-bg.png";
   import DessertImage from "/src/assets/images/Food5.png";
   import Menu from "/src/assets/menu/2024-10-10_Speisekarte.pdf";
-  import { PUBLIC_MENU_ROUTE_1, PUBLIC_MENU_ROUTE_2 } from "$lib/constants";
 </script>
 
 <div class="flex flex-col w-full gap-8 p-8 bg-white lg:px-8 md:px-20 sm:px-16">
