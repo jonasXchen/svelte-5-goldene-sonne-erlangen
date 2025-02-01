@@ -2,7 +2,8 @@
   import BuffetImage from "/src/assets/images/Food2.png";
   import CustomWhiteImage from "/src/assets/images/custom-white-bg.png";
   import DessertImage from "/src/assets/images/Food5.png";
-  import Menu from "/src/assets/menu/2024-10-10_Speisekarte.pdf";
+  import Menu from "/src/assets/menu/2025_Speisekarte.pdf";
+  import TradMenu from "/src/assets/menu/2025_Traditionelle_Speisekarte.pdf";
 </script>
 
 <div class="flex flex-col w-full gap-8 p-8 bg-white lg:px-8 md:px-20 sm:px-16">
@@ -66,7 +67,7 @@
           Von allen Köstlichkeiten etwas dabei, wählen Sie Ihre Wunschnachspeise
           aus!
         </p>
-        <a href={Menu} target="_blank" rel="noopener noreferrer">
+        <a href={TradMenu} target="_blank" rel="noopener noreferrer">
           <button
             class="w-full p-2 font-semibold bg-white border-2 border-primary text-primary max-w-64"
             >Zur traditionellen Speisekarte</button
