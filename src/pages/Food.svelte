@@ -17,16 +17,14 @@
       />
     </div>
     <div
-      class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] justify-center max-h-[500px] relative sm:p-12 p-8 w-full"
-      style="background-image: url('{CustomWhiteImage}');"
+      class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] justify-center max-h-[500px] relative sm:p-12 p-8 w-full bg-primary"
     >
-      <div class="flex flex-col gap-4 lg:z-20 lg:p-16 lg:left-10 lg:absolute">
-        <div
-          class="text-3xl font-medium tracking-widest font-cinzel text-primary"
-        >
+      <div
+        class="flex flex-col gap-4 text-white lg:z-20 lg:p-16 lg:left-10 lg:absolute"
+      >
+        <div class="text-3xl font-medium tracking-widest font-cinzel">
           Speisen
         </div>
-        <p class="text-xl font-semibold">Jeder Geschmack is dabei!</p>
         <p class="text-balance">
           Nutzen Sie die Gelegenheit und genießen Sie unser zahlreiches
           Speisenangebot!
@@ -53,19 +51,17 @@
       />
     </div>
     <div
-      class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] lg:max-h-[500px] justify-center relative sm:p-12 p-8 w-full"
-      style="background-image: url('{CustomWhiteImage}');"
+      class="flex lg:w-1/2 flex-col lg:gap-2 lg:h-[500px] lg:max-h-[500px] justify-center relative sm:p-12 p-8 w-full bg-primary"
     >
-      <div class="flex flex-col gap-4 lg:z-20 lg:p-16 lg:right-10 lg:absolute">
-        <div
-          class="text-3xl font-medium tracking-widest font-cinzel text-primary"
-        >
+      <div
+        class="flex flex-col gap-4 text-white lg:z-20 lg:p-16 lg:right-10 lg:absolute"
+      >
+        <div class="text-3xl font-medium tracking-widest font-cinzel">
           Traditionelle Gerichte
         </div>
-        <p class="text-xl font-semibold">Umfangreich und lecker!</p>
         <p class="text-balance">
-          Von allen Köstlichkeiten etwas dabei, wählen Sie Ihre Wunschnachspeise
-          aus!
+          Von allen Köstlichkeiten etwas dabei, genießen Sie traditionell
+          chinesische Gerichte!
         </p>
         <a href={TradMenu} target="_blank" rel="noopener noreferrer">
           <button

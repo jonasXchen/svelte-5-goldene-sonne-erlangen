@@ -14,8 +14,7 @@
 </script>
 
 <div
-  class="flex flex-col items-center w-full gap-8 py-24"
-  style="background-image: url('{CustomWhiteImage}');"
+  class="flex flex-col items-center w-full gap-8 py-24 text-white bg-primary"
 >
   <!-- Icon -->
   <div class="flex h-6">
@@ -25,7 +24,7 @@
   </div>
   <div class="flex flex-col items-center">
     <!-- Restaurant Name and Address -->
-    <div class="font-semibold text-primary">{PUBLIC_ENTITY_NAME}</div>
+    <div class="font-semibold">{PUBLIC_ENTITY_NAME}</div>
     <div class="flex flex-col items-center text-sm font-thin">
       <div>{PUBLIC_ENTITY_STREET}</div>
       <div>{PUBLIC_ENTITY_CITY}</div>
