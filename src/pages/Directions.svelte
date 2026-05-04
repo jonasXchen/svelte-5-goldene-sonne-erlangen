@@ -8,23 +8,23 @@
   import DirectionsImage from "/src/assets/images/directions.png";
 </script>
 
-<div class="flex flex-col lg:px-8 md:px-20 sm:px-16 p-8 gap-8 w-full">
+<div class="flex flex-col w-full gap-8 p-8 lg:px-8 md:px-20 sm:px-16">
   <div class="flex w-full">
     <p
-      class="w-full font-cinzel text-primary text-3xl font-medium text-center sm:text-left tracking-widest"
+      class="w-full text-3xl font-medium tracking-widest text-center font-cinzel text-primary sm:text-left"
     >
       So finden Sie uns!
     </p>
   </div>
-  <p class="text-balance text-center sm:text-left">
+  <p class="text-center text-balance sm:text-left">
     <span class="font-bold">{PUBLIC_ENTITY_OPENING_DAYS}</span>, auch an
     <span class="font-bold">Feiertagen</span>
     ab
     <span class="font-bold">{PUBLIC_ENTITY_LUNCH_TIME}</span> &
     <span class="font-bold">{PUBLIC_ENTITY_DINNER_TIME}</span> sind wir für Sie da!
   </p>
-  <div class="flex lg:flex-row flex-col lg:gap-12 gap-8">
-    <div class="flex flex-col gap-4 w-full">
+  <div class="flex flex-col gap-8 lg:flex-row lg:gap-12">
+    <div class="flex flex-col w-full gap-4">
       <!-- Map -->
       <div class="flex w-full sm:h-[320px] md:h-[400px] h-[240px]">
         <iframe
@@ -38,13 +38,14 @@
         ></iframe>
       </div>
     </div>
-    <div class="flex flex-col gap-4 w-full">
+    <div class="flex flex-col w-full gap-4">
       <img
         src={DirectionsImage}
         class="md:h-[360px] sm:h-[280px] object-cover h-[200px] w-full"
       />
-      <p class="text-balance text-center sm:text-left">
-        Ausreichend Parkplätze direkt unter dem Einkaufszentrum und Restaurant.
+      <p class="text-center text-balance sm:text-left">
+        Auch mit Baustelle, ausreichend Parkplätze direkt unter dem
+        Einkaufszentrum und Restaurant.
       </p>
     </div>
   </div>
