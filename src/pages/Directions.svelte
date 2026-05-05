@@ -44,7 +44,7 @@
         class="md:h-[360px] sm:h-[280px] object-cover h-[200px] w-full"
       />
       <p class="text-center text-balance sm:text-left">
-        Auch mit Baustelle, ausreichend Parkplätze direkt unter dem
+        Auch mit derzeitiger Baustelle, ausreichend Parkplätze direkt unter dem
         Einkaufszentrum und Restaurant.
       </p>
     </div>
